@@ -1,35 +1,6 @@
 # Style & Push Guide
 I wrote this style & push guide to maintain a high code quality in teams. I hope it can help others as well. 
 
-## Push Guide
-  To push any code make sure you can answer yes to the following five questions:
-
-  <ol>
-    <li> Are you proud of this commit? </li>
-    <li> Does the code always work? </li>
-    <li> Is it styled correctly? </li>
-    <li> Is it an isolated change? </li>
-    <li> Is the terminal error free? </li>
-  </ol>
-
-  A little more on each of these.
-
-  <b>Are you proud of this commit? </b><br>
-  As a team we have committed to a certain level of excellence. We don't believe in doing anything less than this level of excellence. For pushing code to the team server, ask yourself, is this code you're truly proud of? Does this code meet, and exceed the standards of our organization? Over time, over many commits, if the commits are shallow and poor, our code base and product will degrade. However, if the first question we always ask is "Am I proud of this?", our code base will continue to improve. <br>
-
-  <b>Does this code always work? </b><br>
-  Sometimes code will work in one environment, but not in another. Have you stress tested this code? If you have a timed function, have you tested if it works as well at 20 minutes as it does at 2?  <br>
-
-  <b>Is it styled correctly? </b><br>
-  Maintain style on a big repo is hard. It must be done one commit at a time. As soon we start to lapse the whole system is weakened. Make sure style is correct before pushing.   <br>
-
-  <b>Is it an isolated change? </b><br>
-  This is very important. All commits should be a specific change, not a general days' work. This way, if you fuck up and have to revert the change, you only have to revert what's broken, and not the other good code you wrote that works. It helps to isolate problems. <br>
-
-  <b>Is terminal error free? </b><br>
-  Remember Angular can reload a broken app, but it can't recompile one. Make sure your terminal is error free before pushing, or else someone who pulls might have their system break. <br>
-
-
 
  ## Style Guide
 <b> Decompose </b><br>
@@ -487,4 +458,33 @@ firstName = 'Alex'
 ```
 
 <hr>
+
+
+## Push Guide
+  To push any code make sure you can answer yes to the following five questions:
+
+  <ol>
+    <li> Are you proud of this commit? </li>
+    <li> Does the code always work? </li>
+    <li> Is it styled correctly? </li>
+    <li> Is it an isolated change? </li>
+    <li> Is the terminal error free? </li>
+  </ol>
+
+  A little more on each of these.
+
+  <b>Are you proud of this commit? </b><br>
+  As a team we have committed to a certain level of excellence. We don't believe in doing anything less than this level of excellence. For pushing code to the team server, ask yourself, is this code you're truly proud of? Does this code meet, and exceed the standards of our organization? Over time, over many commits, if the commits are shallow and poor, our code base and product will degrade. However, if the first question we always ask is "Am I proud of this?", our code base will continue to improve. <br>
+
+  <b>Does this code always work? </b><br>
+  Sometimes code will work in one environment, but not in another. Have you stress tested this code? If you have a timed function, have you tested if it works as well at 20 minutes as it does at 2?  <br>
+
+  <b>Is it styled correctly? </b><br>
+  Maintain style on a big repo is hard. It must be done one commit at a time. As soon we start to lapse the whole system is weakened. Make sure style is correct before pushing.   <br>
+
+  <b>Is it an isolated change? </b><br>
+  This is very important. All commits should be a specific change, not a general days' work. This way, if you fuck up and have to revert the change, you only have to revert what's broken, and not the other good code you wrote that works. It helps to isolate problems. <br>
+
+  <b>Is terminal error free? </b><br>
+  Remember Angular can reload a broken app, but it can't recompile one. Make sure your terminal is error free before pushing, or else someone who pulls might have their system break. <br>
 
